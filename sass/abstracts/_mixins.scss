@@ -1,0 +1,9 @@
+//append un pseudo elemento para que no colapse un block 
+
+@mixin clearfix{
+    &::after{
+        content: "";
+        display: table;
+        clear:both;
+    }
+}

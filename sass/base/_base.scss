@@ -1,0 +1,10 @@
+*, *::after, *::before { /*hago un reset de propiedades globales*/
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /*fuerzo la herencia para que se herede del body*/
+}
+
+html {
+   font-size: 62.5%; /* seteo el root size, sabemos que 1 rem es 10 px para convertir facil*/
+}
+
